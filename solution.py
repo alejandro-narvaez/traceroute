@@ -105,6 +105,10 @@ def get_route(hostname):
                     tracelist1.append("* * * Request timed out.")
                     #Fill in start
                     #You should add the list above to your all traces list
+
+
+
+
                     #Fill in end
             except timeout:
                 continue
@@ -121,7 +125,7 @@ def get_route(hostname):
 
 
                     #Fill in end
-                except herror:   #if the host does not provide a hostname
+            except herror:   #if the host does not provide a hostname
                     #Fill in start
 
 
