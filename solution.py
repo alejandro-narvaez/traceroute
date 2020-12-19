@@ -121,14 +121,11 @@ def get_route(hostname):
                 #Fill in end
                 try: #try to fetch the hostname
                     #Fill in start
-
-
-
+                    socket.gethostbyaddr(recvPacket[20:21])
                     #Fill in end
             except herror:   #if the host does not provide a hostname
                     #Fill in start
-
-
+                print "No hostname provided"
 
                     #Fill in end
 
